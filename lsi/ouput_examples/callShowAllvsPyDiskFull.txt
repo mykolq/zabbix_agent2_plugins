@@ -1,0 +1,2058 @@
+{
+"Controllers":[
+{
+	"Command Status" : {
+		"CLI Version" : "007.1020.0000.0000 July 1, 2019",
+		"Operating system" : "Windows Server 2019",
+		"Controller" : 0,
+		"Status" : "Success",
+		"Description" : "None"
+	},
+	"Response Data" : {
+		"Basics" : {
+			"Controller" : 0,
+			"Adapter Type" : " SAS3008(C0)",
+			"Model" : "Dell HBA330 Adp",
+			"Serial Number" : "5d09466077d14e00",
+			"Current System Date/time" : "05/15/2023 18:41:08",
+			"Concurrent commands supported" : 9584,
+			"SAS Address" : " 5d09466077d14e00",
+			"PCI Address" : "00:18:00:00",
+			"Mfg Date" : "00/00/00",
+			"Rework Date" : "00/00/00",
+			"Revision No" : "N/A"
+		},
+		"Version" : {
+			"Firmware Package Build" : "16.17.01.00",
+			"Firmware Version" : "16.00.11.00",
+			"Bios Version" : "08.37.02.00_18.00.03.00",
+			"NVDATA Version" : "14.01.00.57",
+			"Driver Name" : "LSI_SAS3",
+			"Driver Version" : "2.51.25.02"
+		},
+		"PCI Version" : {
+			"Vendor Id" : 4096,
+			"Device Id" : 151,
+			"SubVendor Id" : 4136,
+			"SubDevice Id" : 8005,
+			"Host Interface" : "PCIE",
+			"Device Interface" : "SAS-12G",
+			"Bus Number" : 24,
+			"Device Number" : 0,
+			"Function Number" : 0
+		},
+		"Pending Images in Flash" : {
+			"Image name" : "No pending images"
+		},
+		"Status" : {
+			"Controller Status" : "OK",
+			"Memory Correctable Errors" : 0,
+			"Memory Uncorrectable Errors" : 0,
+			"Bios was not detected during boot" : "No",
+			"Controller has booted into safe mode" : "No"
+		},
+		"Supported Adapter Operations" : {
+			"Alarm Control" : "No",
+			"Cluster Support" : "No",
+			"Self Diagnostic" : "No",
+			"Deny SCSI Passthrough" : "No",
+			"Deny SMP Passthrough" : "No",
+			"Deny STP Passthrough" : "No",
+			"Support more than 8 Phys" : "No",
+			"FW and Event Time in GMT" : "No",
+			"Support Enclosure Enumeration" : "No",
+			"Support Allowed Operations" : "Yes",
+			"Support Multipath" : "Yes",
+			"Support Security" : "No",
+			"Support Config Page Model" : "No",
+			"Support the OCE without adding drives" : "No",
+			"support EKM" : "No",
+			"Snapshot Enabled" : "No",
+			"Support PFK" : "No",
+			"Support PI" : "No",
+			"Support Shield State" : "No",
+			"Support Set Link Speed" : "No",
+			"Support JBOD" : "No",
+			"Disable Online PFK Change" : "No",
+			"Real Time Scheduler" : "No",
+			"Support Reset Now" : "No",
+			"Support Emulated Drives" : "No"
+		},
+		"HwCfg" : {
+			"ChipRevision" : " C0",
+			"BatteryFRU" : "N/A",
+			"Front End Port Count" : 1,
+			"Backend Port Count" : 8,
+			"Serial Debugger" : "Absent",
+			"NVRAM Size" : "0KB",
+			"Flash Size" : "16MB",
+			"On Board Memory Size" : "0MB",
+			"On Board Expander" : "Absent",
+			"Temperature Sensor for ROC" : "Present",
+			"Temperature Sensor for Controller" : "Absent",
+			"Current Size of CacheCade (GB)" : 0,
+			"Current Size of FW Cache (MB)" : 0,
+			"ROC temperature(Degree Celcius)" : 51
+		},
+		"Policies" : {
+			"Policies Table" : [
+				{
+					"Policy" : "Predictive Fail Poll Interval",
+					"Current" : "0 sec",
+					"Default" : ""
+				},
+				{
+					"Policy" : "Interrupt Throttle Active Count",
+					"Current" : "0",
+					"Default" : ""
+				},
+				{
+					"Policy" : "Interrupt Throttle Completion",
+					"Current" : "0 us",
+					"Default" : ""
+				},
+				{
+					"Policy" : "Rebuild Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "PR Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "BGI Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "Check Consistency Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "Reconstruction Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "Cache Flush Interval",
+					"Current" : "0s",
+					"Default" : ""
+				}
+			],
+			"Flush Time(Default)" : "4s",
+			"Drive Coercion Mode" : "none",
+			"Auto Rebuild" : "Off",
+			"Battery Warning" : "Off",
+			"ECC Bucket Size" : 0,
+			"ECC Bucket Leak Rate (hrs)" : 0,
+			"Restore HotSpare on Insertion" : "Off",
+			"Expose Enclosure Devices" : "Off",
+			"Maintain PD Fail History" : "Off",
+			"Reorder Host Requests" : "On",
+			"Auto detect BackPlane" : "SGPIO/i2c SEP",
+			"Load Balance Mode" : "None",
+			"Security Key Assigned" : "Off",
+			"Disable Online Controller Reset" : "Off",
+			"Use drive activity for locate" : "Off"
+		},
+		"Boot" : {
+			"Max Drives to Spinup at One Time" : 0,
+			"Maximum number of direct attached drives to spin up in 1 min" : 0,
+			"Delay Among Spinup Groups (sec)" : 0,
+			"Allow Boot with Preserved Cache" : "On"
+		},
+		"Defaults" : {
+			"Phy Polarity" : 0,
+			"Phy PolaritySplit" : 0,
+			"Cached IO" : "Off",
+			"Default spin down time (mins)" : 0,
+			"Coercion Mode" : "None",
+			"ZCR Config" : "Unknown",
+			"Max Chained Enclosures" : 0,
+			"Direct PD Mapping" : "No",
+			"Restore Hot Spare on Insertion" : "No",
+			"Expose Enclosure Devices" : "No",
+			"Maintain PD Fail History" : "No",
+			"Zero Based Enclosure Enumeration" : "No",
+			"Disable Puncturing" : "No",
+			"Un-Certified Hard Disk Drives" : "Block",
+			"SMART Mode" : "Mode 6",
+			"Enable LED Header" : "No",
+			"LED Show Drive Activity" : "No",
+			"Dirty LED Shows Drive Activity" : "No",
+			"EnableCrashDump" : "No",
+			"Disable Online Controller Reset" : "No",
+			"Treat Single span R1E as R10" : "No",
+			"Power Saving option" : "Enable",
+			"TTY Log In Flash" : "No",
+			"Auto Enhanced Import" : "No",
+			"Enable Shield State" : "No",
+			"Time taken to detect CME" : "60 sec"
+		},
+		"Capabilities" : {
+			"Supported Drives" : "SAS, SATA",
+			"Enable JBOD" : "Not Allowed",
+			"Max Parallel Commands" : 9584,
+			"Max SGE Count" : 128,
+			"Max Data Transfer Size" : "32 sectors",
+			"Max Strips PerIO" : 0,
+			"Max Configurable CacheCade Size" : 0,
+			"Min Strip Size" : "512Bytes",
+			"Max Strip Size" : "512Bytes"
+		},
+		"Scheduled Tasks" : "NA",
+		"Enclosure Information" : [
+			{
+				"EID" : 12,
+				"State" : "OK",
+				"Slots" : 24,
+				"PD" : 12,
+				"PS" : 0,
+				"Fans" : 0,
+				"TSs" : 0,
+				"Alms" : 0,
+				"SIM" : 1,
+				"ProdID" : "BP14G+EXP",
+				"VendorSpecific" : "$      ("
+			}
+		],
+		"Physical Device Information" : {
+			"Drive /c0/e12/s12" : [
+				{
+					"EID:Slt" : "12:12",
+					"DID" : 0,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c0/e12/s12 - Detailed Information" : {
+				"Drive /c0/e12/s12 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c0/e12/s12 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S102JTBUT",
+					"WWN" : "500080D9110E9E1C",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c0/e12/s12 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aecc"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 4a 32 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e12/s13" : [
+				{
+					"EID:Slt" : "12:13",
+					"DID" : 1,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c0/e12/s13 - Detailed Information" : {
+				"Drive /c0/e12/s13 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c0/e12/s13 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S1022TBUT",
+					"WWN" : "500080D9110E9E49",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c0/e12/s13 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aecd"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 32 32 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e12/s14" : [
+				{
+					"EID:Slt" : "12:14",
+					"DID" : 2,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c0/e12/s14 - Detailed Information" : {
+				"Drive /c0/e12/s14 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c0/e12/s14 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S1004TBUT",
+					"WWN" : "500080D9110E9E26",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c0/e12/s14 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aece"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 34 30 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e12/s15" : [
+				{
+					"EID:Slt" : "12:15",
+					"DID" : 3,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c0/e12/s15 - Detailed Information" : {
+				"Drive /c0/e12/s15 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c0/e12/s15 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S107BTBUT",
+					"WWN" : "500080D9110E9D91",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c0/e12/s15 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aecf"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 42 37 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e12/s16" : [
+				{
+					"EID:Slt" : "12:16",
+					"DID" : 4,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c0/e12/s16 - Detailed Information" : {
+				"Drive /c0/e12/s16 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c0/e12/s16 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S1007TBUT",
+					"WWN" : "500080D9110E9DFF",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c0/e12/s16 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aed0"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 37 30 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e12/s17" : [
+				{
+					"EID:Slt" : "12:17",
+					"DID" : 5,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c0/e12/s17 - Detailed Information" : {
+				"Drive /c0/e12/s17 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c0/e12/s17 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S108STBUT",
+					"WWN" : "500080D9110E9DB2",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c0/e12/s17 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aed1"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 53 38 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e12/s18" : [
+				{
+					"EID:Slt" : "12:18",
+					"DID" : 6,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c0/e12/s18 - Detailed Information" : {
+				"Drive /c0/e12/s18 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c0/e12/s18 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S108UTBUT",
+					"WWN" : "500080D9110E9D9A",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c0/e12/s18 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aed2"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 55 38 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e12/s19" : [
+				{
+					"EID:Slt" : "12:19",
+					"DID" : 7,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c0/e12/s19 - Detailed Information" : {
+				"Drive /c0/e12/s19 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c0/e12/s19 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S101GTBUT",
+					"WWN" : "500080D9110E9E48",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c0/e12/s19 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aed3"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 47 31 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e12/s20" : [
+				{
+					"EID:Slt" : "12:20",
+					"DID" : 8,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c0/e12/s20 - Detailed Information" : {
+				"Drive /c0/e12/s20 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c0/e12/s20 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S108PTBUT",
+					"WWN" : "500080D9110E9D8E",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c0/e12/s20 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aed4"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 50 38 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e12/s21" : [
+				{
+					"EID:Slt" : "12:21",
+					"DID" : 9,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c0/e12/s21 - Detailed Information" : {
+				"Drive /c0/e12/s21 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c0/e12/s21 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S100CTBUT",
+					"WWN" : "500080D9110E9E2F",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c0/e12/s21 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aed5"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 43 30 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e12/s22" : [
+				{
+					"EID:Slt" : "12:22",
+					"DID" : 10,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c0/e12/s22 - Detailed Information" : {
+				"Drive /c0/e12/s22 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c0/e12/s22 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S100BTBUT",
+					"WWN" : "500080D9110E9E50",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c0/e12/s22 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aed6"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 42 30 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c0/e12/s23" : [
+				{
+					"EID:Slt" : "12:23",
+					"DID" : 11,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c0/e12/s23 - Detailed Information" : {
+				"Drive /c0/e12/s23 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c0/e12/s23 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S102PTBUT",
+					"WWN" : "500080D9110E9E1B",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c0/e12/s23 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aed7"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 50 32 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			}
+		}
+	}
+},
+{
+	"Command Status" : {
+		"CLI Version" : "007.1020.0000.0000 July 1, 2019",
+		"Operating system" : "Windows Server 2019",
+		"Controller" : 1,
+		"Status" : "Success",
+		"Description" : "None"
+	},
+	"Response Data" : {
+		"Basics" : {
+			"Controller" : 1,
+			"Adapter Type" : " SAS3008(C0)",
+			"Model" : "Dell HBA330 Mini",
+			"Serial Number" : "5d09466081136300",
+			"Current System Date/time" : "05/15/2023 18:41:10",
+			"Concurrent commands supported" : 9584,
+			"SAS Address" : " 5d09466081136300",
+			"PCI Address" : "00:3c:00:00",
+			"Mfg Date" : "00/00/00",
+			"Rework Date" : "00/00/00",
+			"Revision No" : "N/A"
+		},
+		"Version" : {
+			"Firmware Package Build" : "16.17.01.00",
+			"Firmware Version" : "16.00.11.00",
+			"Bios Version" : "08.37.02.00_18.00.03.00",
+			"NVDATA Version" : "14.01.00.57",
+			"Driver Name" : "LSI_SAS3",
+			"Driver Version" : "2.51.25.02"
+		},
+		"PCI Version" : {
+			"Vendor Id" : 4096,
+			"Device Id" : 151,
+			"SubVendor Id" : 4136,
+			"SubDevice Id" : 8019,
+			"Host Interface" : "PCIE",
+			"Device Interface" : "SAS-12G",
+			"Bus Number" : 60,
+			"Device Number" : 0,
+			"Function Number" : 0
+		},
+		"Pending Images in Flash" : {
+			"Image name" : "No pending images"
+		},
+		"Status" : {
+			"Controller Status" : "OK",
+			"Memory Correctable Errors" : 0,
+			"Memory Uncorrectable Errors" : 0,
+			"Bios was not detected during boot" : "No",
+			"Controller has booted into safe mode" : "No"
+		},
+		"Supported Adapter Operations" : {
+			"Alarm Control" : "No",
+			"Cluster Support" : "No",
+			"Self Diagnostic" : "No",
+			"Deny SCSI Passthrough" : "No",
+			"Deny SMP Passthrough" : "No",
+			"Deny STP Passthrough" : "No",
+			"Support more than 8 Phys" : "No",
+			"FW and Event Time in GMT" : "No",
+			"Support Enclosure Enumeration" : "No",
+			"Support Allowed Operations" : "Yes",
+			"Support Multipath" : "Yes",
+			"Support Security" : "No",
+			"Support Config Page Model" : "No",
+			"Support the OCE without adding drives" : "No",
+			"support EKM" : "No",
+			"Snapshot Enabled" : "No",
+			"Support PFK" : "No",
+			"Support PI" : "No",
+			"Support Shield State" : "No",
+			"Support Set Link Speed" : "No",
+			"Support JBOD" : "No",
+			"Disable Online PFK Change" : "No",
+			"Real Time Scheduler" : "No",
+			"Support Reset Now" : "No",
+			"Support Emulated Drives" : "No"
+		},
+		"HwCfg" : {
+			"ChipRevision" : " C0",
+			"BatteryFRU" : "N/A",
+			"Front End Port Count" : 1,
+			"Backend Port Count" : 8,
+			"Serial Debugger" : "Absent",
+			"NVRAM Size" : "0KB",
+			"Flash Size" : "16MB",
+			"On Board Memory Size" : "0MB",
+			"On Board Expander" : "Absent",
+			"Temperature Sensor for ROC" : "Present",
+			"Temperature Sensor for Controller" : "Absent",
+			"Current Size of CacheCade (GB)" : 0,
+			"Current Size of FW Cache (MB)" : 0,
+			"ROC temperature(Degree Celcius)" : 39
+		},
+		"Policies" : {
+			"Policies Table" : [
+				{
+					"Policy" : "Predictive Fail Poll Interval",
+					"Current" : "0 sec",
+					"Default" : ""
+				},
+				{
+					"Policy" : "Interrupt Throttle Active Count",
+					"Current" : "0",
+					"Default" : ""
+				},
+				{
+					"Policy" : "Interrupt Throttle Completion",
+					"Current" : "0 us",
+					"Default" : ""
+				},
+				{
+					"Policy" : "Rebuild Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "PR Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "BGI Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "Check Consistency Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "Reconstruction Rate",
+					"Current" : "0 %",
+					"Default" : "30%"
+				},
+				{
+					"Policy" : "Cache Flush Interval",
+					"Current" : "0s",
+					"Default" : ""
+				}
+			],
+			"Flush Time(Default)" : "4s",
+			"Drive Coercion Mode" : "none",
+			"Auto Rebuild" : "Off",
+			"Battery Warning" : "Off",
+			"ECC Bucket Size" : 0,
+			"ECC Bucket Leak Rate (hrs)" : 0,
+			"Restore HotSpare on Insertion" : "Off",
+			"Expose Enclosure Devices" : "Off",
+			"Maintain PD Fail History" : "Off",
+			"Reorder Host Requests" : "On",
+			"Auto detect BackPlane" : "SGPIO/i2c SEP",
+			"Load Balance Mode" : "None",
+			"Security Key Assigned" : "Off",
+			"Disable Online Controller Reset" : "Off",
+			"Use drive activity for locate" : "Off"
+		},
+		"Boot" : {
+			"Max Drives to Spinup at One Time" : 0,
+			"Maximum number of direct attached drives to spin up in 1 min" : 0,
+			"Delay Among Spinup Groups (sec)" : 0,
+			"Allow Boot with Preserved Cache" : "On"
+		},
+		"Defaults" : {
+			"Phy Polarity" : 0,
+			"Phy PolaritySplit" : 0,
+			"Cached IO" : "Off",
+			"Default spin down time (mins)" : 0,
+			"Coercion Mode" : "None",
+			"ZCR Config" : "Unknown",
+			"Max Chained Enclosures" : 0,
+			"Direct PD Mapping" : "No",
+			"Restore Hot Spare on Insertion" : "No",
+			"Expose Enclosure Devices" : "No",
+			"Maintain PD Fail History" : "No",
+			"Zero Based Enclosure Enumeration" : "No",
+			"Disable Puncturing" : "No",
+			"Un-Certified Hard Disk Drives" : "Block",
+			"SMART Mode" : "Mode 6",
+			"Enable LED Header" : "No",
+			"LED Show Drive Activity" : "No",
+			"Dirty LED Shows Drive Activity" : "No",
+			"EnableCrashDump" : "No",
+			"Disable Online Controller Reset" : "No",
+			"Treat Single span R1E as R10" : "No",
+			"Power Saving option" : "Enable",
+			"TTY Log In Flash" : "No",
+			"Auto Enhanced Import" : "No",
+			"Enable Shield State" : "No",
+			"Time taken to detect CME" : "60 sec"
+		},
+		"Capabilities" : {
+			"Supported Drives" : "SAS, SATA",
+			"Enable JBOD" : "Not Allowed",
+			"Max Parallel Commands" : 9584,
+			"Max SGE Count" : 128,
+			"Max Data Transfer Size" : "32 sectors",
+			"Max Strips PerIO" : 0,
+			"Max Configurable CacheCade Size" : 0,
+			"Min Strip Size" : "512Bytes",
+			"Max Strip Size" : "512Bytes"
+		},
+		"Scheduled Tasks" : "NA",
+		"Enclosure Information" : [
+			{
+				"EID" : 12,
+				"State" : "OK",
+				"Slots" : 24,
+				"PD" : 12,
+				"PS" : 0,
+				"Fans" : 0,
+				"TSs" : 0,
+				"Alms" : 0,
+				"SIM" : 1,
+				"ProdID" : "BP14G+EXP",
+				"VendorSpecific" : "$      ("
+			}
+		],
+		"Physical Device Information" : {
+			"Drive /c1/e12/s0" : [
+				{
+					"EID:Slt" : "12:0",
+					"DID" : 0,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c1/e12/s0 - Detailed Information" : {
+				"Drive /c1/e12/s0 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c1/e12/s0 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S108JTBUT",
+					"WWN" : "500080D9110E9DB7",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c1/e12/s0 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aec0"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 4a 38 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c1/e12/s1" : [
+				{
+					"EID:Slt" : "12:1",
+					"DID" : 1,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c1/e12/s1 - Detailed Information" : {
+				"Drive /c1/e12/s1 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c1/e12/s1 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S10AMTBUT",
+					"WWN" : "500080D9110E9D76",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c1/e12/s1 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aec1"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 4d 41 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c1/e12/s2" : [
+				{
+					"EID:Slt" : "12:2",
+					"DID" : 2,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c1/e12/s2 - Detailed Information" : {
+				"Drive /c1/e12/s2 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c1/e12/s2 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S100KTBUT",
+					"WWN" : "500080D9110E9DEF",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c1/e12/s2 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aec2"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 4b 30 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c1/e12/s3" : [
+				{
+					"EID:Slt" : "12:3",
+					"DID" : 3,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c1/e12/s3 - Detailed Information" : {
+				"Drive /c1/e12/s3 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c1/e12/s3 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S107ITBUT",
+					"WWN" : "500080D9110E9D5E",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c1/e12/s3 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aec3"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 49 37 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c1/e12/s4" : [
+				{
+					"EID:Slt" : "12:4",
+					"DID" : 4,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c1/e12/s4 - Detailed Information" : {
+				"Drive /c1/e12/s4 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c1/e12/s4 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S100JTBUT",
+					"WWN" : "500080D9110E9DE0",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c1/e12/s4 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aec4"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 4a 30 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c1/e12/s5" : [
+				{
+					"EID:Slt" : "12:5",
+					"DID" : 5,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c1/e12/s5 - Detailed Information" : {
+				"Drive /c1/e12/s5 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c1/e12/s5 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S107FTBUT",
+					"WWN" : "500080D9110E9DAE",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c1/e12/s5 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aec5"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 46 37 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c1/e12/s6" : [
+				{
+					"EID:Slt" : "12:6",
+					"DID" : 6,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c1/e12/s6 - Detailed Information" : {
+				"Drive /c1/e12/s6 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c1/e12/s6 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S1088TBUT",
+					"WWN" : "500080D9110E9D95",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c1/e12/s6 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aec6"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 38 38 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c1/e12/s7" : [
+				{
+					"EID:Slt" : "12:7",
+					"DID" : 7,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c1/e12/s7 - Detailed Information" : {
+				"Drive /c1/e12/s7 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c1/e12/s7 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S10A5TBUT",
+					"WWN" : "500080D9110E9D7A",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c1/e12/s7 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aec7"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 35 41 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c1/e12/s8" : [
+				{
+					"EID:Slt" : "12:8",
+					"DID" : 8,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c1/e12/s8 - Detailed Information" : {
+				"Drive /c1/e12/s8 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c1/e12/s8 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S107VTBUT",
+					"WWN" : "500080D9110E9D64",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c1/e12/s8 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aec8"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 56 37 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c1/e12/s9" : [
+				{
+					"EID:Slt" : "12:9",
+					"DID" : 9,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c1/e12/s9 - Detailed Information" : {
+				"Drive /c1/e12/s9 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c1/e12/s9 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S1008TBUT",
+					"WWN" : "500080D9110E9E4B",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c1/e12/s9 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aec9"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 38 30 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c1/e12/s10" : [
+				{
+					"EID:Slt" : "12:10",
+					"DID" : 10,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c1/e12/s10 - Detailed Information" : {
+				"Drive /c1/e12/s10 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c1/e12/s10 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S102CTBUT",
+					"WWN" : "500080D9110E9DE1",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c1/e12/s10 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aeca"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 43 32 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			},
+			"Drive /c1/e12/s11" : [
+				{
+					"EID:Slt" : "12:11",
+					"DID" : 11,
+					"State" : "UGood",
+					"DG" : "-",
+					"Size" : "745.211 GB",
+					"Intf" : "SATA",
+					"Med" : "SSD",
+					"SED" : "N",
+					"PI" : "N",
+					"SeSz" : "512B",
+					"Model" : "THNSF8800CCSE",
+					"Sp" : "U"
+				}
+			],
+			"Drive /c1/e12/s11 - Detailed Information" : {
+				"Drive /c1/e12/s11 State" : {
+					"Shield Counter" : 0,
+					"Media Error Count" : 0,
+					"Other Error Count" : 0,
+					"Predictive Failure Count" : 0,
+					"S.M.A.R.T alert flagged by drive" : "No"
+				},
+				"Drive /c1/e12/s11 Device attributes" : {
+					"Manufacturer Id" : "ATA     ",
+					"Model Number" : "THNSF8800CCSE",
+					"NAND Vendor" : "NA",
+					"SN" : "683S1025TBUT",
+					"WWN" : "500080D9110E9DDE",
+					"Firmware Revision" : "DACB",
+					"Raw size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Non Coerced size" : "745.211 GB [0x5d26ceaf Sectors]",
+					"Device Speed" : "Unknown",
+					"Link Speed" : "12.0Gb/s",
+					"NCQ setting" : "N/A",
+					"Sector Size" : "512B",
+					"Config ID" : "NA",
+					"Number of Blocks" : 1562824367
+				},
+				"Drive /c1/e12/s11 Policies/Settings" : {
+					"Enclosure position" : 1,
+					"Connected Port Number" : "1(path0) ",
+					"Sequence Number" : 0,
+					"Commissioned Spare" : "No",
+					"Emergency Spare" : "No",
+					"Last Predictive Failure Event Sequence Number" : 0,
+					"Successful diagnostics completion on" : "N/A",
+					"SED Capable" : "No",
+					"SED Enabled" : "No",
+					"Secured" : "No",
+					"Needs EKM Attention" : "No",
+					"PI Eligible" : "No",
+					"Certified" : "Yes",
+					"Wide Port Capable" : "No",
+					"Port Information" : [
+						{
+							"Port" : 0,
+							"Status" : "Active",
+							"Linkspeed" : "12.0Gb/s",
+							"SAS address" : "0x500056b34cd1aecb"
+						}
+					]
+				},
+				"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 20 20 38 36 53 33 30 31 35 32 42 54 54 55 00 00 00 00 00 00 20 20 20 20 41 44 42 43 48 54 53 4e 38 46 30 38 43 30 53 43 20 45 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 39 ff ff ff 0f 00 00 07 00 "
+			}
+		}
+	}
+}
+]
+}

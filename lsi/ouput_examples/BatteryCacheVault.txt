@@ -1,0 +1,157 @@
+{
+"Controllers":[
+{
+        "Command Status" : {
+                "CLI Version" : "007.0408.0000.0000 Sep 20, 2017",
+                "Operating system" : "Windows Server 2016 Technical Preview",
+                "Controller" : 0,
+                "Status" : "Success",
+                "Description" : "None"
+        },
+        "Response Data" : {
+                "Cachevault_Info" : [
+                        {
+                                "Property" : "Type",
+                                "Value" : "CVPM02"
+                        },
+                        {
+                                "Property" : "Temperature",
+                                "Value" : "29 C"
+                        },
+                        {
+                                "Property" : "State",
+                                "Value" : "Optimal"
+                        }
+                ],
+                "Firmware_Status" : [
+                        {
+                                "Property" : "Replacement required",
+                                "Value" : "No"
+                        },
+                        {
+                                "Property" : "No space to cache offload",
+                                "Value" : "No"
+                        },
+                        {
+                                "Property" : "Module microcode update required",
+                                "Value" : "No"
+                        }
+                ],
+                "GasGaugeStatus" : [
+                        {
+                                "Property" : "Pack Energy",
+                                "Value" : "205 J"
+                        },
+                        {
+                                "Property" : "Capacitance",
+                                "Value" : "91 %"
+                        },
+                        {
+                                "Property" : "Remaining Reserve Space",
+                                "Value" : 0
+                        }
+                ],
+                "Design_Info" : [
+                        {
+                                "Property" : "Date of Manufacture",
+                                "Value" : "20/01/2017"
+                        },
+                        {
+                                "Property" : "Serial Number",
+                                "Value" : 2235
+                        },
+                        {
+                                "Property" : "Manufacture Name",
+                                "Value" : "LSI"
+                        },
+                        {
+                                "Property" : "Design Capacity",
+                                "Value" : "288 J"
+                        },
+                        {
+                                "Property" : "Device Name",
+                                "Value" : "CVPM02"
+                        },
+                        {
+                                "Property" : "tmmFru",
+                                "Value" : "N/A"
+                        },
+                        {
+                                "Property" : "CacheVault Flash Size",
+                                "Value" : "4.0 GB"
+                        },
+                        {
+                                "Property" : "tmmBatversionNo",
+                                "Value" : "0x01"
+                        },
+                        {
+                                "Property" : "tmmSerialNo",
+                                "Value" : "0xe21a"
+                        },
+                        {
+                                "Property" : "tmm Date of Manufacture",
+                                "Value" : "11/07/2017"
+                        },
+                        {
+                                "Property" : "tmmPcbAssmNo",
+                                "Value" : "0225444231"
+                        },
+                        {
+                                "Property" : "tmmPCBversionNo",
+                                "Value" : "0x02"
+                        },
+                        {
+                                "Property" : "tmmBatPackAssmNo",
+                                "Value" : "49571-15C"
+                        },
+                        {
+                                "Property" : "scapBatversionNo",
+                                "Value" : "0x00"
+                        },
+                        {
+                                "Property" : "scapSerialNo",
+                                "Value" : "0x08bb"
+                        },
+                        {
+                                "Property" : "scap Date of Manufacture",
+                                "Value" : "20/01/2017"
+                        },
+                        {
+                                "Property" : "scapPcbAssmNo",
+                                "Value" : "993000"
+                        },
+                        {
+                                "Property" : "scapPCBversionNo",
+                                "Value" : " E"
+                        },
+                        {
+                                "Property" : "scapBatPackAssmNo",
+                                "Value" : "49571-15C"
+                        },
+                        {
+                                "Property" : "Module Version",
+                                "Value" : "6071-04A"
+                        }
+                ],
+                "Properties" : [
+                        {
+                                "Property" : "Auto Learn Period",
+                                "Value" : "27d (2412000 seconds)"
+                        },
+                        {
+                                "Property" : "Next Learn time",
+                                "Value" : "2023/05/20  10:59:16 (737895556 seconds)"
+                        },
+                        {
+                                "Property" : "Learn Delay Interval",
+                                "Value" : "0 hour(s)"
+                        },
+                        {
+                                "Property" : "Auto-Learn Mode",
+                                "Value" : "Transparent"
+                        }
+                ]
+        }
+}
+]
+}

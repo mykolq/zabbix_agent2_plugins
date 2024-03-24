@@ -1,0 +1,1515 @@
+{
+"Controllers":[
+{
+	"Command Status" : {
+		"CLI Version" : "007.1020.0000.0000 July 1, 2019",
+		"Operating system" : "Windows Server 2019",
+		"Controller" : 0,
+		"Status" : "Success",
+		"Description" : "Show Drive Information Succeeded."
+	},
+	"Response Data" : {
+		"Drive /c0/e64/s0" : [
+			{
+				"EID:Slt" : "64:0",
+				"DID" : 0,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s0 - Detailed Information" : {
+			"Drive /c0/e64/s0 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 3,
+				"Drive Temperature" : " 26C (78.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s0 Device attributes" : {
+				"SN" : "S450NY0M401169",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E00116028",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s0 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fc0"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 31 31 39 36 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s1" : [
+			{
+				"EID:Slt" : "64:1",
+				"DID" : 1,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s1 - Detailed Information" : {
+			"Drive /c0/e64/s1 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 1,
+				"Drive Temperature" : " 26C (78.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s1 Device attributes" : {
+				"SN" : "S450NY0M402336",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E001164B7",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s1 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fc1"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 33 32 36 33 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s2" : [
+			{
+				"EID:Slt" : "64:2",
+				"DID" : 2,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s2 - Detailed Information" : {
+			"Drive /c0/e64/s2 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 26C (78.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s2 Device attributes" : {
+				"SN" : "S450NY0M402334",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E001164B5",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s2 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fc2"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 33 32 34 33 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s3" : [
+			{
+				"EID:Slt" : "64:3",
+				"DID" : 3,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s3 - Detailed Information" : {
+			"Drive /c0/e64/s3 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 1,
+				"Drive Temperature" : " 26C (78.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s3 Device attributes" : {
+				"SN" : "S450NY0M400994",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E00115F79",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s3 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fc3"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 39 30 34 39 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s4" : [
+			{
+				"EID:Slt" : "64:4",
+				"DID" : 4,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s4 - Detailed Information" : {
+			"Drive /c0/e64/s4 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 26C (78.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s4 Device attributes" : {
+				"SN" : "S450NY0M401179",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E00116032",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s4 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fc4"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 31 31 39 37 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s5" : [
+			{
+				"EID:Slt" : "64:5",
+				"DID" : 5,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s5 - Detailed Information" : {
+			"Drive /c0/e64/s5 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 26C (78.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s5 Device attributes" : {
+				"SN" : "S450NY0M402329",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E001164B0",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s5 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fc5"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 33 32 39 32 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s6" : [
+			{
+				"EID:Slt" : "64:6",
+				"DID" : 6,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s6 - Detailed Information" : {
+			"Drive /c0/e64/s6 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 1,
+				"Drive Temperature" : " 26C (78.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s6 Device attributes" : {
+				"SN" : "S450NY0M403542",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E0011696D",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s6 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fc6"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 35 33 32 34 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s7" : [
+			{
+				"EID:Slt" : "64:7",
+				"DID" : 7,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s7 - Detailed Information" : {
+			"Drive /c0/e64/s7 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 1,
+				"Drive Temperature" : " 26C (78.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s7 Device attributes" : {
+				"SN" : "S450NY0M401181",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E00116034",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s7 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fc7"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 31 31 31 38 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s8" : [
+			{
+				"EID:Slt" : "64:8",
+				"DID" : 8,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s8 - Detailed Information" : {
+			"Drive /c0/e64/s8 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 2,
+				"Drive Temperature" : " 26C (78.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s8 Device attributes" : {
+				"SN" : "S450NY0M403532",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E00116963",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s8 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fc8"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 35 33 32 33 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s9" : [
+			{
+				"EID:Slt" : "64:9",
+				"DID" : 9,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s9 - Detailed Information" : {
+			"Drive /c0/e64/s9 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 25C (77.00 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s9 Device attributes" : {
+				"SN" : "S450NY0M402332",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E001164B3",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s9 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fc9"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 33 32 32 33 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s10" : [
+			{
+				"EID:Slt" : "64:10",
+				"DID" : 10,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s10 - Detailed Information" : {
+			"Drive /c0/e64/s10 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 26C (78.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s10 Device attributes" : {
+				"SN" : "S450NY0M402331",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E001164B2",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s10 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fca"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 33 32 31 33 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s11" : [
+			{
+				"EID:Slt" : "64:11",
+				"DID" : 11,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s11 - Detailed Information" : {
+			"Drive /c0/e64/s11 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 1,
+				"Drive Temperature" : " 26C (78.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s11 Device attributes" : {
+				"SN" : "S450NY0M401168",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E00116027",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s11 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fcb"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 31 31 38 36 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s12" : [
+			{
+				"EID:Slt" : "64:12",
+				"DID" : 12,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s12 - Detailed Information" : {
+			"Drive /c0/e64/s12 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 1,
+				"Drive Temperature" : " 26C (78.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s12 Device attributes" : {
+				"SN" : "S450NY0M403535",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E00116966",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s12 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fcc"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 35 33 35 33 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s13" : [
+			{
+				"EID:Slt" : "64:13",
+				"DID" : 13,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s13 - Detailed Information" : {
+			"Drive /c0/e64/s13 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 26C (78.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s13 Device attributes" : {
+				"SN" : "S450NY0M401150",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E00116015",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s13 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fcd"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 31 31 30 35 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s14" : [
+			{
+				"EID:Slt" : "64:14",
+				"DID" : 14,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s14 - Detailed Information" : {
+			"Drive /c0/e64/s14 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 26C (78.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s14 Device attributes" : {
+				"SN" : "S450NY0M401178",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E00116031",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s14 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fce"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 31 31 38 37 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s15" : [
+			{
+				"EID:Slt" : "64:15",
+				"DID" : 15,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "1.745 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "MZ7LH1T9HMLT0D3",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s15 - Detailed Information" : {
+			"Drive /c0/e64/s15 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 1,
+				"Drive Temperature" : " 25C (77.00 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s15 Device attributes" : {
+				"SN" : "S450NY0M402339",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "MZ7LH1T9HMLT0D3",
+				"NAND Vendor" : "NA",
+				"WWN" : "5002538E001164BA",
+				"Firmware Revision" : "    HE59",
+				"Raw size" : "1.746 TB [0xdf8fe2b0 Sectors]",
+				"Coerced size" : "1.745 TB [0xdf7c0000 Sectors]",
+				"Non Coerced size" : "1.745 TB [0xdf7fe2b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s15 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fcf"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 20 20 20 20 34 53 30 35 59 4e 4d 30 30 34 33 32 39 33 00 00 00 00 00 00 20 20 20 20 45 48 39 35 5a 4d 4c 37 31 48 39 54 4d 48 54 4c 44 30 20 33 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s16" : [
+			{
+				"EID:Slt" : "64:16",
+				"DID" : 16,
+				"State" : "Onln",
+				"DG" : 2,
+				"Size" : "6.985 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "INTEL SSDSC2KG076T8",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s16 - Detailed Information" : {
+			"Drive /c0/e64/s16 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 20C (68.00 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s16 Device attributes" : {
+				"SN" : "PHYG947400FK7P6FGN",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "INTEL SSDSC2KG076T8",
+				"NAND Vendor" : "NA",
+				"WWN" : "55CD2E415201119E",
+				"Firmware Revision" : "XCV10120",
+				"Raw size" : "6.985 TB [0x37e3e92b0 Sectors]",
+				"Coerced size" : "6.985 TB [0x37e2c0000 Sectors]",
+				"Non Coerced size" : "6.985 TB [0x37e2e92b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Enabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s16 Policies/Settings" : {
+				"Drive position" : "DriveGroup:2 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "No",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fd0"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 48 50 47 59 34 39 34 37 30 30 4b 46 50 37 46 36 4e 47 20 20 00 00 00 00 00 00 43 58 31 56 31 30 30 32 4e 49 45 54 20 4c 53 53 53 44 32 43 47 4b 37 30 54 36 20 38 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 fd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s17" : [
+			{
+				"EID:Slt" : "64:17",
+				"DID" : 17,
+				"State" : "Onln",
+				"DG" : 2,
+				"Size" : "6.985 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "INTEL SSDSC2KG076T8",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s17 - Detailed Information" : {
+			"Drive /c0/e64/s17 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 20C (68.00 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s17 Device attributes" : {
+				"SN" : "PHYG947400747P6FGN",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "INTEL SSDSC2KG076T8",
+				"NAND Vendor" : "NA",
+				"WWN" : "55CD2E4152011E1E",
+				"Firmware Revision" : "XCV10120",
+				"Raw size" : "6.985 TB [0x37e3e92b0 Sectors]",
+				"Coerced size" : "6.985 TB [0x37e2c0000 Sectors]",
+				"Non Coerced size" : "6.985 TB [0x37e2e92b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Enabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s17 Policies/Settings" : {
+				"Drive position" : "DriveGroup:2 ",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "No",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fd1"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 48 50 47 59 34 39 34 37 30 30 34 37 50 37 46 36 4e 47 20 20 00 00 00 00 00 00 43 58 31 56 31 30 30 32 4e 49 45 54 20 4c 53 53 53 44 32 43 47 4b 37 30 54 36 20 38 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 fd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s24" : [
+			{
+				"EID:Slt" : "64:24",
+				"DID" : 24,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "223.000 GB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "SSDSC2KG240G8R",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s24 - Detailed Information" : {
+			"Drive /c0/e64/s24 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 30C (86.00 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s24 Device attributes" : {
+				"SN" : "BTYG915508GL240AGN",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "SSDSC2KG240G8R",
+				"NAND Vendor" : "NA",
+				"WWN" : "55CD2E41509CA0D9",
+				"Firmware Revision" : "XCV1DL69",
+				"Raw size" : "223.570 GB [0x1bf244b0 Sectors]",
+				"Coerced size" : "223.000 GB [0x1be00000 Sectors]",
+				"Non Coerced size" : "223.070 GB [0x1be244b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Enabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s24 Policies/Settings" : {
+				"Drive position" : "DriveGroup:0, Span:0, Row:0",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fd8"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 54 42 47 59 31 39 35 35 38 30 4c 47 34 32 41 30 4e 47 20 20 00 00 00 00 00 00 43 58 31 56 4c 44 39 36 53 53 53 44 32 43 47 4b 34 32 47 30 52 38 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 fd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e64/s25" : [
+			{
+				"EID:Slt" : "64:25",
+				"DID" : 25,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "223.000 GB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "SSDSC2KG240G8R",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s25 - Detailed Information" : {
+			"Drive /c0/e64/s25 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 30C (86.00 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s25 Device attributes" : {
+				"SN" : "BTYG915508FD240AGN",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "SSDSC2KG240G8R",
+				"NAND Vendor" : "NA",
+				"WWN" : "55CD2E41509CA05C",
+				"Firmware Revision" : "XCV1DL69",
+				"Raw size" : "223.570 GB [0x1bf244b0 Sectors]",
+				"Coerced size" : "223.000 GB [0x1be00000 Sectors]",
+				"Non Coerced size" : "223.070 GB [0x1be244b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Enabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s25 Policies/Settings" : {
+				"Drive position" : "DriveGroup:0, Span:0, Row:1",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase, BlockErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x500056b3b78f2fd9"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 54 42 47 59 31 39 35 35 38 30 44 46 34 32 41 30 4e 47 20 20 00 00 00 00 00 00 43 58 31 56 4c 44 39 36 53 53 53 44 32 43 47 4b 34 32 47 30 52 38 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 fd ff ff ff 0f 00 00 07 00 "
+		}
+	}
+}
+]
+}
