@@ -21,4 +21,5 @@ go build ./cmd/zabbix-agent2-plugin-lsi.go
 - Restart agent2
 
 Don't forget to change sudoers file for using with linux
-Lsi plugin readme watch in lsi folder
+You can use compiled binary from releases
+
